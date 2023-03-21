@@ -1,19 +1,16 @@
-#include <stdio.h>
+#include <mai.h>
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-void print_alphabet(void) 
+void print_alphabet(void)
 {
-    char letter = 'a';
+	char letter;
 
-    while (letter <= 'z') 
-    {
-        _putchar(letter);
-        letter++;
-    }
 
-    _putchar('\n');
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
-
