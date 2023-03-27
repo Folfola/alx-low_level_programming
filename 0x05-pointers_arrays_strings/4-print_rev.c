@@ -1,3 +1,10 @@
+#include "main.h"
+
+/**
+ * rev_string - Reverses a string
+ * @s: Input string
+ * Return: String in reverse
+ */
 void print_rev(char *s)
 {
 	char z;
@@ -5,7 +12,7 @@ void print_rev(char *s)
 	z = 'z';
 	while (z >= 's')
 	{
-		ft_putchar(z);
+		_putchar(z);
 		z--;
 	}
 }
