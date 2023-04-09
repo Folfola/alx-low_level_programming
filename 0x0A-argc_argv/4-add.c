@@ -10,7 +10,7 @@
  */
 int isNum(char num[])
 {
-	int i, l = strlrn(num);
+	int i, l = strlen(num);
 
 	for (i = 0; i < l ; i++)
 		if (!isdigit(num[i]))
