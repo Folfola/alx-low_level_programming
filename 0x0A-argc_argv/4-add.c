@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 				sum += atoi(argv[i]);
 			else
 			{
-				printf("Erroer\n");
+				printf("Error\n");
 				return (1);
 			}
 		}
