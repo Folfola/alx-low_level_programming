@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-
+#include <stddef.h>
 /**
  * _memcpy - copies from memory area src to memory area dest
  * @dest: pointer to the destination array where the content is to be copied
