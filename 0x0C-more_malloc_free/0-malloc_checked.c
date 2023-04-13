@@ -8,13 +8,15 @@
  *
  * Return: pointer to allocated memory
  */
-void *malloc_checked(unsigned int b) {
-    void *ptr = malloc(b); // allocate memory using malloc
+void *malloc_checked(unsigned int b)
+{
+	void *ptr = malloc(b);
 
-    if (ptr == NULL) {
-        perror("Error: malloc failed"); // print an error message
-        exit(98); // terminate the process with status value 98
-    }
+	if (ptr == NULL)
+	{
+		perror("Error: malloc failed");
+		exit(98);
+	}
 
-    return ptr; // return the allocated memory
+	return (ptr);
 }
