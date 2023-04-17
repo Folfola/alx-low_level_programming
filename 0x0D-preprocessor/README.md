@@ -1,6 +1,6 @@
 # Macros and Header File Inclusion Guards in C
 
-![Macro and Header File Inclusion Guards](header_image.jpg)
+
 
 This repository provides information and examples related to macros and header file inclusion guards in C programming. Learn how to use macros for code generation and customization, understand the most common predefined macros, and properly use header file inclusion guards to prevent multiple inclusions of the same header file.
 
