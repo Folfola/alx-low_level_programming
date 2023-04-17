@@ -1,1 +1,3 @@
+![9ef84b3fd1636992602868e45d3062719326de0e](https://user-images.githubusercontent.com/120464576/232624715-ff6754a4-8db0-4b05-a1ed-20fa5dd63a14.jpg)
+![alxdog](https://user-images.githubusercontent.com/120464576/232624857-7bd00387-fe21-468a-8414-62ceed05a0c5.jpg)
 0x0E. C - Structures, typedef
