@@ -2,7 +2,7 @@
 
 /**
  * list_len - returns the number of elements in a linked list_t list
- * 
+ * by Folfola - (Salma)
  * @h: list's name
  * Return:  number of elements
  */
