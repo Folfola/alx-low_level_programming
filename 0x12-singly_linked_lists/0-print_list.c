@@ -2,7 +2,6 @@
 
 /**
  * print_list - prints all the elements of a list_t list
- * by Salma - (Folfola)
  * @h: list's name
  * Return: number of nodes
  */
