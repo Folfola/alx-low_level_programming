@@ -7,11 +7,11 @@
  */
 int _strlen(const char *s)
 {
-	int c = 0;
+	int i = 0;
 
-	while (s[c] != '\0')
-		c++;
-	return (c);
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
 
 /**
@@ -22,17 +22,17 @@ int _strlen(const char *s)
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *ad;
+	list_t *new;
 	unsigned int l = 0;
 
 	while (str[l])
 		l++;
-	ad = malloc(sizeof(list_t));
-	if (ad == NULL)
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
 		return (NULL);
-	ad->str = strdup(str);
-	ad->len = l;
-	ad->next = *head;
-	*head = ad;
+	new->str = strdup(str);
+	new->len = l;
+	new->next = *head;
+	*head = new;
 	return (*head);
 }
