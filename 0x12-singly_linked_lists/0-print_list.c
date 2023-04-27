@@ -1,11 +1,10 @@
 #include "lists.h"
-#include <stdio.h>
 
 /**
  * print_list - prints all the elements of a list_t list
- * @h: pointer to the head of the list
- *
- * Return: the number of nodes
+ * by Salma - (Folfola)
+ * @h: list's name
+ * Return: number of nodes
  */
 size_t print_list(const list_t *h)
 {
@@ -13,12 +12,13 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		if (h->str)
-			printf("[%u] %s\n", h->len, h->str);
-		else
+		if (h->str == 0)
 			printf("[0] (nil)\n");
-		h = h->next;
+		else
+			printf("[%d] %s\n", h->len, h->str);
 		i++;
+		h = h->next;
+
 	}
 	return (i);
 }
